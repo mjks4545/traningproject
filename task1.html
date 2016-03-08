@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+    <style>
+        .content h6{
+            border-top: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+
+                        background:#FAFAFA;
+            padding:20px;
+                }
+                .contentb {
+            border-top: 1px dotted #CCC;
+            border-bottom: 1px dotted #CCC;
+
+                        //background:#FAFAFA;
+            padding:10px;
+                }
+
+                .contenta h5{
+            border-top: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+
+                        background:#d9edf7;
+            padding:20px;
+                }
+        .sal{
+                background-color: #2c3e50 !important;
+            color:#fff;
+        }
+        .sal > a{
+            background-color: #2c3e50 !important;
+            color:#fff;
+        }
+        .form{
+                margin-left: 220px;
+                padding-left: 30px;
+        }
+
+        .borderslines{
+                border-top: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+
+            background: #FAFAFA;
+            min-height: 49px;
+            padding-top: 13px;
+        }
+        .borderslinesc{
+                border-top: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+
+            background: #FAFAFA;
+            min-height: 49px;
+            padding-top: 13px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <ol  class="breadcrumb sal">
+      <li><a href="#">Home</a></li>
+
+      <li><a href="#">membership account</a></li>
+      <li class="active">membership checkout</li>
+      <h1>Membership Checkout<h1>
+    </ol>
+    <br>
+    <div class="container">    
+    <h5>A Payment Gateway must be set up before any payments will be processed.</h5>
+    <div class="borderslines">
+        <div class="col-md-11">
+            <strong>Membership level</strong>
+        </div>
+        <div class="col-md-1">
+            <i><a href="#">change</a></i>
+        </div>
+    </div>
+    <br>
+    <div>
+        <p>You have selected the <strong>Platinum</strong> membership level.</p>
+        <p>Nullam vel erat magna. Nullam ornare mollis magna suscipit dignissim. Fusce massa est, maximus quis est id, eleifend vulputate urna.</p>
+        <p>The price for membership is <strong>$100.00 per Month</strong>.</p>
+    </div>
+    <div class="contentb">
+	<div class="container">
+            <p>Do you have a discount code?<a href="#"> Click here to enter your discount code.</a></p>
+            <br>
+
+            <div class="borderslines">
+                <div class="col-md-9">
+                    <strong>Account Information</strong>
+                </div>
+                <div class="col-md-3">
+                    <i>you have already an account
+                    <a href="#">login here</a></i>
+                </div>
+            </div>
+            <br><br>        
+            <form role="form">
+                <div class="form-group">
+                    <div class="col-md-2"> <label for="exampleInputEmail1">user_name</label></div>
+                    <div class="col-md-6"> <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter user_name"></div><abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br><br>
+                <div class="form-group">
+                    <div class="col-md-2"><label for="exampleInputEmail1">Password</label></div>
+                    <div class="col-md-6"> <input type="password" class="form-control" id="exampleInputEmail1" placeholder="Enter Password"></div><abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2">   <label for="exampleInputEmail1">confirm password</label></div>
+                    <div class="col-md-6"> <input type="password" class="form-control" id="exampleInputEmail1" placeholder="Enter confirm password"></div><abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2"> <label for="exampleInputEmail1">E-mail Address</label></div>
+                    <div class="col-md-6"> <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"></div><abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2">   <label for="exampleInputEmail1">confirm Email</label></div>
+                    <div class="col-md-6"> <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter confirm email"></div><abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="borderslines">
+                    <div class="col-md-12">
+                        <strong>Payment Information</strong>
+                    </div>
+                </div>
+                <br>     
+                <div class="form-group">
+                    <div class="col-md-2"> <label for="exampleInputEmail1">first_name</label></div>
+                    <div class="col-md-6"> <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter first_name"></div><abbr title="Required Field">*</abbr>
+                         <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2"><label for="exampleInputEmail1">last_name</label></div>
+                    <div class="col-md-6"> <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter last_name"></div><abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="exampleInputEmail1">Address1</label>
+                    </div>
+                    <div class="col-md-6"> 
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter address1">
+                    </div>
+                    <abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2"> 
+                        <label for="exampleInputEmail1">Address2</label>
+                    </div>
+                    <div class="col-md-6"> 
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter address2">
+                    </div>
+                    <abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2">   
+                        <label for="exampleInputEmail1">city</label>
+                    </div>
+                    <div class="col-md-6"> 
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your_city">
+                    </div>
+                    <abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                     <div class="col-md-2"> 
+                         <label for="exampleInputEmail1">state</label>
+                     </div>
+                     <div class="col-md-6"> 
+                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your_state">
+                     </div>
+                    <abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="exampleInputEmail1">postal_code</label>
+                    </div>
+                    <div class="col-md-6"> 
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="enter postal_code">
+                    </div>
+                    <abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="exampleInputEmail1">country</label>
+                    </div>
+                    <div class="col-md-6"> 
+                        <select name="bcountry" class=" pmpro_required form-control">
+                          <option value="country">select country</option>     
+                          <option value="AF">Afghanistan</option>
+                          <option value="AX">Aland Islands</option>
+                          <option value="AL">Albania</option>
+                          <option value="DZ">Algeria</option>
+                          <option value="AS">American Samoa</option>
+                          <option value="AD">Andorra</option>
+                          <option value="AO">Angola</option>
+                          <option value="AI">Anguilla</option>
+                          <option value="AQ">Antarctica</option>
+                          <option value="AG">Antigua and Barbuda</option>
+                          <option value="AR">Argentina</option>
+                          <option value="AM">Armenia</option>
+                          <option value="AW">Aruba</option>
+                          <option value="AU">Australia</option>
+                          <option value="AT">Austria</option>
+                          <option value="AZ">Azerbaijan</option>
+                          <option value="BS">Bahamas</option>
+                          <option value="BH">Bahrain</option>
+                          <option value="BD">Bangladesh</option>
+                          <option value="BB">Barbados</option>
+                          <option value="BY">Belarus</option>
+                          <option value="BE">Belgium</option>
+                          <option value="BZ">Belize</option>
+                          <option value="BJ">Benin</option>
+                          <option value="BM">Bermuda</option>
+                          <option value="BT">Bhutan</option>
+                          <option value="BO">Bolivia</option>
+                          <option value="BA">Bosnia and Herzegovina</option>
+                          <option value="BW">Botswana</option>
+                          <option value="BV">Bouvet Island</option>
+                          <option value="BR">Brazil</option>
+                          <option value="IO">British Indian Ocean Territory</option>
+                          <option value="VG">British Virgin Islands</option>
+                          <option value="BN">Brunei</option>
+                          <option value="BG">Bulgaria</option>
+                          <option value="BF">Burkina Faso</option>
+                          <option value="BI">Burundi</option>
+                          <option value="KH">Cambodia</option>
+                          <option value="CM">Cameroon</option>
+                          <option value="CA">Canada</option>
+                          <option value="CV">Cape Verde</option>
+                          <option value="KY">Cayman Islands</option>
+                          <option value="CF">Central African Republic</option>
+                          <option value="TD">Chad</option>
+                          <option value="CL">Chile</option>
+                          <option value="CN">China</option>
+                          <option value="CX">Christmas Island</option>
+                          <option value="CC">Cocos (Keeling) Islands</option>
+                          <option value="CO">Colombia</option>
+                          <option value="KM">Comoros</option>
+                          <option value="CG">Congo (Brazzaville)</option>
+                          <option value="CD">Congo (Kinshasa)</option>
+                          <option value="CK">Cook Islands</option>
+                          <option value="CR">Costa Rica</option>
+                          <option value="HR">Croatia</option>
+                          <option value="CU">Cuba</option>
+                          <option value="CY">Cyprus</option>
+                          <option value="CZ">Czech Republic</option>
+                          <option value="DK">Denmark</option>
+                          <option value="DJ">Djibouti</option>
+                          <option value="DM">Dominica</option>
+                          <option value="DO">Dominican Republic</option>
+                          <option value="EC">Ecuador</option>
+                          <option value="EG">Egypt</option>
+                          <option value="SV">El Salvador</option>
+                          <option value="GQ">Equatorial Guinea</option>
+                          <option value="ER">Eritrea</option>
+                          <option value="EE">Estonia</option>
+                          <option value="ET">Ethiopia</option>
+                          <option value="FK">Falkland Islands</option>
+                          <option value="FO">Faroe Islands</option>
+                          <option value="FJ">Fiji</option>
+                          <option value="FI">Finland</option>
+                          <option value="FR">France</option>
+                          <option value="GF">French Guiana</option>
+                          <option value="PF">French Polynesia</option>
+                          <option value="TF">French Southern Territories</option>
+                          <option value="GA">Gabon</option>
+                          <option value="GM">Gambia</option>
+                          <option value="GE">Georgia</option>
+                          <option value="DE">Germany</option>
+                          <option value="GH">Ghana</option>
+                          <option value="GI">Gibraltar</option>
+                          <option value="GR">Greece</option>
+                          <option value="GL">Greenland</option>
+                          <option value="GD">Grenada</option>
+                          <option value="GP">Guadeloupe</option>
+                          <option value="GU">Guam</option>
+                          <option value="GT">Guatemala</option>
+                          <option value="GG">Guernsey</option>
+                          <option value="GN">Guinea</option>
+                          <option value="GW">Guinea-Bissau</option>
+                          <option value="GY">Guyana</option>
+                          <option value="HT">Haiti</option>
+                          <option value="HM">Heard Island and McDonald Islands</option>
+                          <option value="HN">Honduras</option>
+                          <option value="HK">Hong Kong S.A.R., China</option>
+                          <option value="HU">Hungary</option>
+                          <option value="IS">Iceland</option>
+                          <option value="IN">India</option>
+                          <option value="ID">Indonesia</option>
+                          <option value="IR">Iran</option>
+                          <option value="IQ">Iraq..</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br><br>
+                <div class="form-group">
+                    <div class="col-md-2"><label for="exampleInputEmail1">phone</label></div>
+                    <div class="col-md-6"> <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Enter phone_no"></div><abbr title="Required Field">*</abbr>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br>
+                <div class="borderslines">
+                  <div class="col-md-7"><strong>Payment Information</strong>
+                  </div>
+                  <div class="col-md-5">
+                  <i>We Accept Visa, Mastercard, American Express and Discover</i>
+                  </div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2"> <label for="exampleInputEmail1">card_number</label></div>
+                    <div class="col-md-4"> <input type="number" class="form-control" id="exampleInputEmail1"></div>
+                    <div class="col-md-6"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2"><label for="exampleInputEmail1">expiration_date</label></div>
+                    <div class="col-md-4"><input type="date" class="form-control" id="exampleInputEmail1"></div>
+                     <div class="col-md-6"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2"><label for="exampleInputEmail1">ccv</label></div>
+                    <div class="col-md-4"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+                    <div class="col-md-6"></div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-md-2"><label for="exampleInputEmail1">Discount_code</label></div>
+                    <div class="col-md-4"><input type="text" class="form-control" id="exampleInputEmail1"></div>
+                    <div class="col-md-6"><input type="button" class="btn btn alert-info" value="apply"></div>
+                </div>
+                <br><br><br>
+                <div class="col-md-3"></div>
+                <div class="col-md-5"><input type="submit" name="submit" value="submit and check out" class="btn btn-warning"></div>
+                <div class="col-md-4"></div>
+            </form>
+        </div>
+     </div>
+</div>
+</body>
+</html>
